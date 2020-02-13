@@ -4,7 +4,7 @@ import tw from "tailwind.macro"
 import { css } from "@emotion/core"
 import Logo from '../components/logo'
 
-const HeaderElement = tw.header`pt-8 px-8 flex justify-center md:hidden`
+const HeaderElement = tw.header`pt-8 px-8 flex justify-center md:hidden w-full`
 const linkStyle = css`${tw`w-48`}`
 
 const Header = () => (

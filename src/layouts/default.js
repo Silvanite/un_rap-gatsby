@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Global } from "@emotion/core"
 import { Body } from '../styles/global'
 import Header from '../components/header'
+import Footer from '../components/footer'
 import Believe from '../components/believe'
 
 const Layout = ({ children }) => {
@@ -12,6 +13,7 @@ const Layout = ({ children }) => {
       <Header />
       <Believe />
       {children}
+      <Footer />
     </>
   )
 }

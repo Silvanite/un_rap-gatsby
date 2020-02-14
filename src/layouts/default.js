@@ -11,7 +11,7 @@ import ImageGrid from '../components/imagegrid'
 
 const Layout = ({ children }) => {
   const Wrapper = tw.div`mb-20 flex flex-wrap font-body w-full`
-  const Container = tw.div`w-full max-w-5xl mx-auto flex flex-wrap px-8`
+  const Container = tw.div`w-full max-w-6xl mx-auto flex flex-wrap px-8`
   const Main = tw.div`w-full md:w-3/5`
   const Side = tw.div`w-full md:w-2/5 flex flex-wrap p-2 content-start`
   const Sticky = tw.div`sticky top-0`
@@ -28,8 +28,8 @@ const Layout = ({ children }) => {
           </Main>
           <Side>
             <Sticky>
-              <Contact />
               <ImageGrid />
+              <Contact />
             </Sticky>
           </Side>
         </Container>
